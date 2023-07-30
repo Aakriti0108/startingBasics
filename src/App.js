@@ -3,7 +3,7 @@ import ExpenseItem from "./components/ExpenseItem";
 function App() {
    const expense =[
     {
-      date:new Date("2022-03-25"),
+      date:new Date(2020,7,14),
       Tit:'sweet',
       amount:94.12,
       spent:85
