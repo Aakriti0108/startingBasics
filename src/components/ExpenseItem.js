@@ -1,5 +1,6 @@
 import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
+import Card from './Card';
 // function ExpenseItem(props){
 //   
 //     return (
@@ -18,7 +19,7 @@ import ExpenseDate from './ExpenseDate';
 //     );
 // }
 
-function ExpenseItem(props){
+ const ExpenseItem = (props)=>{
     
     return (
         <div>
