@@ -20,7 +20,9 @@ import Card from './Card';
 // }
 
  const ExpenseItem = (props)=>{
-    
+    const clickHandler = () =>{
+        console.log("Clicked !!!!");
+    }
     return (
         <div>
         <div className='expense-item'>
@@ -31,6 +33,7 @@ import Card from './Card';
         <div className='expense-item__price'>${props.amount}</div>
         
         <div className='expense-item__price'>${props.spent}</div>
+        <button onClick ={clickHandler}>Change  Title</button>
         </div>
         </div>
         
