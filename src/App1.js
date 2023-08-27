@@ -1,7 +1,7 @@
 
 import NewExpense from "./components/NewExpenses/NewExpenses";
 
-const App1 = ()=>{
+const App1 = (props)=>{
 
     const addExpenseHandler = expense =>{
          console.log('In App');
