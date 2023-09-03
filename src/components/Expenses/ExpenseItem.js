@@ -20,11 +20,11 @@ import { useState } from 'react';
 // }
 
  const ExpenseItem = (props)=>{
-    // const [Tit,setTit] = useState(props.Tit);
+    const [Title,settitle] = useState(props.Title);
 
-    // const [amount,setAmount] = useState(props.amount);
+    const [Amount,setAmount] = useState(props.Amount);
     // const clickHandler = () =>{
-    //     setTit("WELCOME");
+    //     settitle(title);
     // }
     // const increasement =()=>{
     //     setAmount( amount + 100);
@@ -34,12 +34,11 @@ import { useState } from 'react';
         <div className='expense-item'>
         <ExpenseDate date={props.date}/>
         <div className='expense-item__description'>
-        <h2>{props.Tit}</h2>
+        <h2>{props.Title}</h2>
         </div>
-        <div className='expense-item__price'><button onClick={increasement}>${props.amount}</button></div>
+        <div className='expense-item__price'><button >${props.Amount}</button></div>
         
-        <div className='expense-item__price'>${props.spent}</div>
-        <button onClick ={clickHandler}>Change  Title</button>
+       
         </div>
         </div>
         

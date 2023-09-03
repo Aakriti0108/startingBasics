@@ -21,7 +21,7 @@ function App() {
   return (
     <div>
       <h2>Let's get started!</h2>
-      <NewExpense />
+      <ExpenseItem />
       <ExpenseItem 
       date={expense[0].date}
       Tit={expense[0].Tit}
